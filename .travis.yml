@@ -1,0 +1,19 @@
+# .travis.yml
+language: node_js
+node_js:
+  - stable
+before_install:
+  - npm install typescript
+branches:
+  only:
+    - master
+email:
+  on_failure: change
+  on_success: never
+cache:
+  directories:
+    - node_modules
+git:
+  depth: 20
+script:
+  - npm run prod
