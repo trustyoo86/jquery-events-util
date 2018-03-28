@@ -17,7 +17,10 @@
     "jquey",
     "event"
   ],
-  "author": "kern86",
+  "author": {
+    "name": "kern86",
+    "email": "trustyoo86@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/trustyoo86/jquery-events-util/issues"
