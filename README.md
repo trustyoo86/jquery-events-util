@@ -1,4 +1,7 @@
 # jquery-event-util
+
+[![Build Status](https://travis-ci.org/trustyoo86/jquery-events-util.svg?branch=master)](https://travis-ci.org/trustyoo86/jquery-events-util)
+
 Event-related utility that returns the position or offset at which the event occurred. It also allows you to apply event names organically according to the device.
 
 ## install
