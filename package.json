@@ -1,0 +1,54 @@
+{
+  "name": "jquery-events-util",
+  "version": "0.0.1",
+  "description": "event models using jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "dev": "NODE_ENV=development webpack --watch",
+    "prod": "NODE_ENV=production webpack",
+    "build:doc": "jsdoc2md --no-cache --files 'src/**/*.ts' --configure jsdoc2md.json > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyoo86/jquery-events-util.git"
+  },
+  "keywords": [
+    "jquey",
+    "event"
+  ],
+  "author": "kern86",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustyoo86/jquery-events-util/issues"
+  },
+  "homepage": "https://github.com/trustyoo86/jquery-events-util#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^5.0.0",
+    "awesome-typescript-loader": "^4.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "karma": "^2.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-phantomjs-shim": "^1.5.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "^0.0.32",
+    "karma-verbose-reporter": "^0.0.6",
+    "karma-webpack": "^3.0.0",
+    "mocha": "^5.0.5",
+    "should": "^13.2.1",
+    "sinon": "^4.4.9"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "path": "^0.12.7",
+    "typescript": "^2.8.1",
+    "vigour-ua": "^4.0.0",
+    "webpack": "3.10.0"
+  }
+}
